@@ -1,0 +1,148 @@
+
+
+section{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container{
+  background-color: rgba(255, 255, 255);
+  width: 40%;
+  max-width: 50rem;
+  padding: 5rem;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 1rem;
+  border-radius: 25px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%; 
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+label{
+  width: 100%;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.display{
+  margin-top: 1rem;
+  border-radius: 25px;
+  border: 2px solid black;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  align-items: center;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color:green;
+}
+
+.blue{
+  color: blue;
+}
+
+.copyclip{
+  margin-top: 1rem;
+  border-radius: 25px;
+  border: 2px solid black;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  align-items: center;
+}
+
+.clip{
+  background-color: white;
+  border: 0px;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.clip:hover{
+  transform: scale(1.1);
+}
+
+.alert{
+  background-color: rgb(255, 255, 179);
+  position: absolute;
+  top: 2.5rem;
+  padding: 1rem;
+  border-radius: 25px;
+  width: 20rem;
+  text-align: center;
+  font-size: 1.5rem;
+  display: none;
+}
+
+@media only screen and (max-width: 53.2rem) {
+  html{
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 38rem) {
+  html{
+    font-size: 60%;
+  }
+}
+
+@media only screen and (max-width: 25rem) {
+  html{
+    font-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 18rem) {
+  html{
+    font-size: 30%;
+  }
+}
+@media only screen and (max-width: 13rem) {
+  html{
+    font-size: 20%;
+  }
+}
